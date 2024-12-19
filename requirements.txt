@@ -4,3 +4,4 @@ pillow
 pandas
 camelot-py
 opencv-contrib-python
+openpyxl
