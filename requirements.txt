@@ -1,1 +1,6 @@
 pdf2image
+pytesseract
+pillow
+pandas
+camelot-py
+opencv-contrib-python
