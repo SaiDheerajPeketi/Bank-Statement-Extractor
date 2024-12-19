@@ -7,7 +7,7 @@ def pdf_to_images(pdf_file_path, output_folder="extracted_images", dpi=300):
     os.makedirs(output_folder, exist_ok=True)
 
     # Convert PDF to list of images, one per page
-    images = convert_from_path(pdf_path, dpi=dpi)
+    images = convert_from_path(pdf_file_path, dpi=dpi)
 
     # Save each image to the output folder
     image_paths = []
@@ -21,5 +21,5 @@ def pdf_to_images(pdf_file_path, output_folder="extracted_images", dpi=300):
 
 
 if __name__ == "__main__":
-    pdf_path = r"C:\Users\SaiDheerajPeketi\Downloads\camera_ready_paper.pdf"
+    pdf_path = r"test.pdf"
     pdf_to_images(pdf_path)
