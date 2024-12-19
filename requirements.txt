@@ -5,3 +5,5 @@ pandas
 camelot-py
 opencv-contrib-python
 openpyxl
+streamlit
+PyPDF2
