@@ -1,3 +1,5 @@
 /.idea/
-*.pdf
 /extracted_images
+*.pdf
+*.csv
+*.xlsx
