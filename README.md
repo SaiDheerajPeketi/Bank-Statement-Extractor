@@ -86,7 +86,7 @@ The processor currently supports two bank statement formats:
 ## File Structure
 
 ```
-bank-statement-processor/
+Bank-Statement-Extractor/
 ├── app.py                 # Streamlit web application
 ├── main.ipynb             # Jupyter notebook implementation
 ├── preprocessor.py        # Core processing functions
